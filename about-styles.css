@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #E8F0F2; /* Light blue-grey background */
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #FF6A88; /* Pink header background */
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-header {
+    margin-top: 10px;
+}
+
+.nav-header ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFDEE9; /* Light pink background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.about ul {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.about ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.about ul li strong {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
